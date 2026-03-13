@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,sans-serif;margin:0;background:linear-gradient(180deg,#eef2f8 0%,#f8fbff 100%);color:#0b2545;}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;background:transparent;position:sticky;top:0;z-index:50;}
+.logo-wrap{display:flex;align-items:center;gap:12px}
+.logo-wrap img{height:56px}
+nav a{margin-left:18px;text-decoration:none;color:#09243a;font-weight:600}
+.cta{background:#0a84ff;color:white;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(10,132,255,0.18)}
+.hero{height:520px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+.carousel{width:100%;height:100%;display:flex;transition:transform 0.7s ease;}
+.slide{min-width:100%;height:100%;display:flex;align-items:center;justify-content:center;background-size:cover;background-position:center;position:relative}
+.slide-overlay{position:absolute;inset:0;background:linear-gradient(180deg, rgba(6,18,42,0.45), rgba(6,18,42,0.25));}
+.hero-content{position:relative;z-index:3;color:white;text-align:center;max-width:920px;padding:20px}
+.hero h1{font-size:44px;margin-bottom:12px;text-shadow:0 6px 30px rgba(2,6,23,0.6)}
+.hero p{font-size:18px;margin-bottom:18px;opacity:0.95}
+.search-box{display:flex;gap:8px;justify-content:center;margin-top:12px}
+.search-box input{padding:12px 14px;border-radius:12px;border:none;min-width:320px;box-shadow:0 6px 20px rgba(2,6,23,0.12)}
+.search-btn{padding:12px 18px;border-radius:12px;border:none;background:#ffd700;color:#062;cursor:pointer;font-weight:700}
+.container{max-width:1200px;margin:0 auto;padding:32px}
+.section{padding:56px 0}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.card{background:rgba(255,255,255,0.65);backdrop-filter: blur(8px) saturate(120%);border-radius:12px;padding:20px;box-shadow:0 12px 30px rgba(2,6,23,0.08)}
+.card h3{margin:0 0 10px 0}
+.footer{background:#06102a;color:#cfe6ff;padding:28px;text-align:center;margin-top:30px}
+.whatsapp{position:fixed;right:20px;bottom:20px;background:#25D366;color:white;padding:14px 18px;border-radius:999px;text-decoration:none;font-weight:800;box-shadow:0 10px 30px rgba(37,211,102,0.18)}
+.search-results{margin-top:18px;text-align:center;color:#062}
+@media(max-width:720px){.hero h1{font-size:28px}.search-box input{min-width:160px}}

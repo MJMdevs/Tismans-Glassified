@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#e6f0ff" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect rx="18" width="400" height="120" fill="url(#g1)"/>
+  <g transform="translate(20,20)">
+    <circle cx="40" cy="40" r="28" fill="#0a84ff" opacity="0.9"/>
+    <path d="M18 45 L62 45 L40 15 Z" fill="#fff" opacity="0.95"/>
+    <text x="90" y="55" font-family="Segoe UI, Arial" font-size="28" fill="#0a2a66" font-weight="700">Tisman's Appliance</text>
+    <text x="90" y="85" font-family="Segoe UI, Arial" font-size="14" fill="#0a2a66">Repairs — ATTN: Mr Neill</text>
+  </g>
+</svg>
